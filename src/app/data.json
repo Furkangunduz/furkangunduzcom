@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Furkan Gündüz",
-    "title": "Full-Stack Developer",
+    "title": "Full-Stack Software Developer",
     "location": "Çankaya, Ankara",
     "image": "/profile.jpeg",
     "availability": {
@@ -29,8 +29,9 @@
   "about": {
     "title": "About me",
     "content": [
-      "I’m Furkan, a full-stack developer who enjoys turning ambitious product ideas into reliable web and mobile experiences.",
-      "From telemetry-driven racing platforms to large-scale marketplace integrations, I build data-rich backends with GraphQL, NestJS, and SQL, keep systems resilient, and help teams move fast without sacrificing quality."
+      "I am a full-stack software developer specializing in scalable backend systems, system architecture, and end-to-end product development.",
+      "Currently at Driven AVS, I develop B2B sim-racing applications and telemetry-based solutions, contributing to backend development, technical planning, and production delivery.",
+      "Previously at Pixa Software, I built e-commerce integrations for more than 50 marketplaces using Node.js, TypeScript, NestJS, GraphQL, SQL, and REST APIs. My experience also includes high-volume telemetry processing, cloud infrastructure, web and mobile applications, and internal tools that solve operational business challenges."
     ]
   },
   "stack": {
@@ -46,16 +47,15 @@
       },
       {
         "icon": "/stack/typescript.svg",
-        "name": "Typescript"
+        "name": "TypeScript"
       },
       {
         "icon": "/stack/nextjs.svg",
-        "name": "NextJS"
+        "name": "Next.js"
       },
-
       {
         "icon": "/stack/nodejs.svg",
-        "name": "NodeJS"
+        "name": "Node.js"
       },
       {
         "icon": "/stack/mongodb.svg",
@@ -75,7 +75,7 @@
       },
       {
         "icon": "/stack/expressjs.svg",
-        "name": "ExpressJS"
+        "name": "Express.js"
       },
       {
         "icon": "/stack/expo.svg",
@@ -93,33 +93,33 @@
       {
         "id": "racedata",
         "title": "RaceData.ai",
-        "category": "Frontend - Backend - Cloud",
+        "category": "Full-Stack Development - Telemetry - Cloud Infrastructure",
         "image": "/projects/racedata/image-1.png",
         "href": "/projects/racedata",
         "website": "https://racedata.ai",
-        "description": "RaceData.ai is an online platform that collects data from popular racing simulators like Assetto Corsa, iRacing, and Assetto Corsa Competizione. It analyzes important performance metrics—like braking, acceleration, and steering control—to help users understand and improve their racing techniques. Users can compare their results with others, making it a powerful tool for enhancing racing skills. It has a strong and flexible infrastructure to support its services.",
-        "services": "Full-Stack Development",
-        "client": "DrivenAVS",
+        "description": "RaceData.ai is a telemetry-driven performance analytics platform for Assetto Corsa, Assetto Corsa Competizione, and iRacing. It processes racing data to help drivers analyze braking behavior, acceleration, steering inputs, racing lines, lap consistency, and performance differences. The platform enables users to compare laps and turn raw telemetry into actionable insights through a scalable production infrastructure.",
+        "services": "Full-Stack Development, Technical Leadership, Telemetry Processing, Cloud Infrastructure",
+        "client": "Driven AVS",
         "year": "2024",
         "features": [
           {
-            "title": "Collect telemetry data",
-            "description": "Seamlessly integrates with popular racing simulators such as Assetto Corsa, iRacing, and Assetto Corsa Competizione to automatically collect detailed telemetry data from your gameplay."
+            "title": "Telemetry Collection",
+            "description": "Collects detailed telemetry data from Assetto Corsa, Assetto Corsa Competizione, and iRacing for processing and performance analysis."
           },
           {
             "title": "Performance Analysis",
-            "description": "The system breaks down critical racing metrics-such as braking, acceleration, and steering control-to analyze your driving style. This analysis highlights strengths and areas for improvement."
+            "description": "Analyzes braking, acceleration, steering behavior, racing lines, lap consistency, and performance differences to identify improvement opportunities."
           },
           {
-            "title": "Performance Comparison",
-            "description": "Users can compare their performance to other racers on the platform, providing a competitive and community-driven approach to improving racing skills."
+            "title": "Lap Comparison",
+            "description": "Enables drivers to compare laps and performance data with other racers through data-rich visualizations and analytics workflows."
           },
           {
-            "title": "Robust and Scalable Infrastructure",
-            "description": "Built on modern technologies such as Node.js, Express.js, MongoDB, Nginx, and hosted on AWS EC2 with AWS S3 integration, the backend is designed for high performance and scalability, effectively managing a growing user base and large data sets."
+            "title": "Scalable Infrastructure",
+            "description": "Uses Node.js, Express.js, MongoDB, Redis, Bull Queue, Nginx, AWS EC2, and AWS S3 to process asynchronous workloads, manage traffic spikes, and store telemetry data reliably."
           }
         ],
-        "summary": "Essentially, RaceData.ai enables users to transform raw gameplay data into actionable insights, helping them refine their racing techniques and enjoy a more competitive and engaging experience.",
+        "summary": "RaceData.ai transforms high-volume racing telemetry into practical performance insights and supports more than 10,000 active users, 10,000+ recorded laps, and 1,000+ daily race sessions.",
         "images": [
           "/projects/racedata/image-1.png",
           "/projects/racedata/image-2.png",
@@ -133,41 +133,77 @@
     "title": "Experience",
     "items": [
       {
-        "company": "Pixasoftware",
+        "company": "Driven AVS",
+        "website": "https://www.drivenavs.com",
+        "position": "Software Developer",
+        "period": "Mar 2026 - Present",
+        "location": "Ankara, Türkiye",
+        "workMode": "On-site",
+        "remote": false,
+        "achievements": [
+          "Rejoined Driven AVS in a full-time capacity after continuing to support the company part-time while working at Pixa Software.",
+          "Design and develop scalable backend services for B2B sim-racing applications, contributing to system architecture, technical planning, and end-to-end product delivery.",
+          "Translate business and operational requirements into maintainable technical solutions involving API design, data processing workflows, system integrations, and application architecture.",
+          "Apply deep domain knowledge in racing telemetry and the existing Driven AVS ecosystem to accelerate product development and technical decision-making.",
+          "Collaborate with engineering and product stakeholders to plan, implement, test, and deliver production-ready features.",
+          "Improve system reliability, performance, maintainability, and operational visibility while supporting technical coordination and knowledge sharing across the engineering team."
+        ]
+      },
+      {
+        "company": "Pixa Software",
         "website": "https://pixasoftware.com",
         "position": "Backend Developer",
-        "period": "Mar 2025 - Present",
+        "period": "Mar 2025 - Mar 2026",
+        "location": "Istanbul, Türkiye",
+        "workMode": "Remote",
         "remote": true,
         "achievements": [
-          "Designed and shipped GraphQL- and NestJS-based services that deliver faster, more flexible data flows, while reusable schemas, resolvers, and types accelerated feature delivery and simplified maintenance.",
-          "Maintained and scaled an integration hub that connects with 50+ e-commerce marketplaces using Node.js, Express.js, NestJS, and SQL—optimizing performance, hardening reliability, and tightening error observability across connectors.",
-          "Built custom integrations for marketplaces such as Temu and Amazon SellerFlex, implementing synchronized inventory and order pipelines that prevent overselling through rigorous cross-stock management."
+          "Developed scalable backend systems and marketplace integrations for an e-commerce ecosystem connecting with more than 50 sales platforms.",
+          "Designed and implemented GraphQL APIs with NestJS, including reusable schemas, types, queries, mutations, and resolvers.",
+          "Maintained and enhanced marketplace integrations using Node.js, TypeScript, Express.js, NestJS, SQL, GraphQL, and REST APIs.",
+          "Developed custom integrations for Temu and Amazon Seller Flex, covering product, order, inventory, and fulfillment operations.",
+          "Built cross-stock and multi-warehouse inventory workflows to reduce overselling, stock inconsistencies, and fulfillment issues across multiple sales channels.",
+          "Improved integration reliability through structured validation, logging, retry mechanisms, error handling, and performance optimization.",
+          "Built an internal application based on the Model Context Protocol (MCP), enabling the Customer Success team to manage operational workflows and resolve recurring customer issues more independently.",
+          "Developed an AI-powered address validation and normalization system that reduced manual intervention and delivery-related errors.",
+          "Worked closely with Customer Success and operational teams to transform recurring business problems into maintainable internal software solutions."
         ]
       },
       {
-        "company": "Racedata.ai",
-        "website": "https://racedata.ai",
-        "position": "Full-Stack Developer",
+        "company": "Driven AVS",
+        "website": "https://www.drivenavs.com",
+        "position": "Software Developer / Team Lead",
         "period": "May 2024 - Aug 2025",
+        "location": "Türkiye",
+        "workMode": "Remote",
         "remote": true,
         "achievements": [
-          "Led a team of 4 developers, overseeing the planning, execution, and delivery of key features, while maintaining high code quality and ensuring effective collaboration and communication within the team.",
-          "Developed a platform that collects telemetry data from racing games such as Assetto Corsa, iRacing, and Assetto Corsa Competizione to help users improve their racing statistics. The system analyzes when to brake, accelerate, and how to control the steering wheel, allowing users to compare their performance with other racers on the platform.",
-          "Constructed an End-to-End backend system with Node.js, Express.js, MongoDB, Nginx, AWS S3, and hosted on AWS EC2.",
-          "Successfully handled over 2,000 users and saved more than 10000 laps, demonstrating the platform's scalability and reliability."
+          "Took end-to-end ownership of an early-stage racing telemetry analytics platform and helped develop it into a scalable production product used by more than 10,000 sim-racing drivers.",
+          "Built a telemetry-driven performance analytics platform for Assetto Corsa, Assetto Corsa Competizione, and iRacing, enabling drivers to compare laps, racing lines, braking behavior, consistency, and performance differences.",
+          "Designed and maintained scalable REST APIs and telemetry processing systems using Node.js, Express.js, and MongoDB.",
+          "Developed workflows for processing, storing, and analyzing high-volume racing telemetry data, supporting 10,000+ recorded laps and 1,000+ daily race sessions.",
+          "Architected and deployed backend infrastructure using AWS EC2 and integrated AWS S3 for scalable telemetry and media storage.",
+          "Implemented Redis and Bull Queue for background jobs, asynchronous telemetry processing, and traffic spike management, and configured Nginx-based load balancing for production stability.",
+          "Developed frontend and administrative features using React.js, Next.js, and GraphQL.",
+          "Led technical planning, architecture decisions, task distribution, code reviews, release processes, and engineering coordination as the team expanded.",
+          "Continued supporting the product part-time after joining Pixa Software, contributing to technical decisions, knowledge transfer, product development, and engineering continuity."
         ]
       },
       {
-        "company": "Kodgarage",
+        "company": "KodGaraj",
         "website": "https://kodgarage.com",
-        "position": "Full-Stack Developer",
+        "position": "Software Developer",
         "period": "Sep 2022 - Feb 2025",
+        "location": "Türkiye",
+        "workMode": "Remote",
         "remote": true,
         "achievements": [
-          "Developed an e-commerce site using React.js and Node.js, which led to a noticeable increase in online sales. This project involved creating a user-friendly interface and ensuring seamless backend operations.",
-          "Integrated the ThreeJS library to build a 3D design module for cardboard bags. This feature allowed users to easily customize various aspects of the bags, such as dimensions, text, texture, and frames, enhancing the overall user experience.",
-          "Led the conversion process of four existing web applications to iOS and Android platforms using React Native and Expo. This initiative significantly broadened the user base and improved accessibility across multiple devices.",
-          "Developed internal services for sending and receiving emails and SMS, as well as for storing, cropping, and adjusting the quality of images on a local server. These services streamlined communication and media management processes within the organization."
+          "Designed and developed an e-commerce platform using React.js and Node.js, delivering a user-friendly storefront and a reliable backend architecture.",
+          "Built an interactive 3D product customization module with Three.js, allowing customers to configure and preview cardboard bags directly in the browser.",
+          "Led the migration of four web applications to iOS and Android using React Native and Expo.",
+          "Developed reusable internal tools for email and SMS communication workflows.",
+          "Built image processing services for storing, cropping, resizing, and optimizing media assets on local infrastructure.",
+          "Contributed across frontend, backend, and mobile development, taking responsibility for feature implementation, system integration, testing, and delivery."
         ]
       }
     ]
@@ -176,45 +212,47 @@
     "title": "Education",
     "items": [
       {
-        "location": "Cankaya Ankara",
-        "degree": "Computer Education and instructional Technology",
+        "location": "Çankaya, Ankara",
+        "degree": "Bachelor of Science in Computer Education and Instructional Technology",
         "school": "Middle East Technical University",
-        "period": "2019-2025",
-        "description": "I focus on advanced web technologies, user experience, front-end and back-end development."
+        "period": "2019 - 2025",
+        "description": "Focused on software development, web technologies, user experience, frontend and backend development, and technology-supported learning systems."
       }
     ]
   },
   "seo": {
     "baseUrl": "https://furkangunduz.com",
-    "title": "Furkan Gündüz | Full-Stack Developer from Turkey",
+    "title": "Furkan Gündüz | Full-Stack Software Developer",
     "titleTemplate": "%s | Furkan Gündüz",
-    "description": "I'm Furkan Gündüz, a Full-Stack Developer from Ankara, Turkey. Specialized in React, Node.js, and TypeScript. Building scalable web applications and leading development teams.",
+    "description": "Furkan Gündüz is a full-stack software developer based in Ankara, specializing in scalable backend systems, Node.js, TypeScript, NestJS, GraphQL, racing telemetry, e-commerce integrations, and cloud infrastructure.",
     "keywords": [
       "Furkan Gunduz",
       "Furkan Gündüz",
       "furkangunduz",
-      "furkan gunduz developer",
-      "furkan gunduz ankara",
-      "furkan gunduz metu",
-      "Full-Stack Developer",
+      "Furkan Gündüz developer",
+      "Full-Stack Software Developer",
+      "Backend Developer Ankara",
       "Software Engineer Turkey",
-      "React Developer Ankara",
-      "TypeScript Expert Turkey",
       "Node.js Developer",
-      "JavaScript Developer",
-      "Frontend Developer",
-      "Backend Developer",
-      "Ankara Developer",
-      "Turkish Software Engineer"
+      "TypeScript Developer",
+      "NestJS Developer",
+      "GraphQL Developer",
+      "React Developer",
+      "Sim Racing Developer",
+      "Racing Telemetry",
+      "E-commerce Integrations",
+      "Marketplace APIs",
+      "AWS Developer",
+      "Ankara Software Developer"
     ],
     "author": {
       "name": "Furkan Gündüz",
       "url": "https://furkangunduz.com"
     },
     "social": {
-      "github": "https://github.com/furkangunduz",
-      "linkedin": "https://linkedin.com/in/furkangunduz",
-      "twitter": "@furkangunduz"
+      "github": "https://github.com/Furkangunduz",
+      "linkedin": "https://www.linkedin.com/in/furkangunduz00/",
+      "medium": "https://medium.com/@furkan.gunduz"
     },
     "verification": {
       "google": "your-google-verification-code"
@@ -223,18 +261,26 @@
       "url": "/profile.jpeg",
       "width": 1200,
       "height": 630,
-      "alt": "Furkan Gündüz - Full-Stack Developer"
+      "alt": "Furkan Gündüz - Full-Stack Software Developer"
     },
-    "jobTitle": "Full-Stack Developer",
+    "jobTitle": "Full-Stack Software Developer",
     "expertise": [
-      "React",
       "Node.js",
       "TypeScript",
-      "JavaScript",
-      "Web Development",
-      "Full-Stack Development",
+      "NestJS",
+      "Express.js",
+      "GraphQL",
+      "REST APIs",
+      "React.js",
+      "Next.js",
+      "MongoDB",
+      "SQL",
+      "Redis",
+      "AWS",
       "Software Architecture",
-      "UI/UX Design"
+      "Racing Telemetry",
+      "E-commerce Integrations",
+      "Full-Stack Development"
     ],
     "location": {
       "city": "Ankara",
